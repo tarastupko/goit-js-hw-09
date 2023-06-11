@@ -21,8 +21,9 @@ img {
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  color: #333;
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .field {
@@ -33,10 +34,12 @@ img {
 }
 
 .value {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
 }
 
 .label {
+  font-size: 16px;
+  text-transform: uppercase;
   margin-top: 5px;
 }
